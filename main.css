@@ -27,9 +27,38 @@ header h4 {
 #gallery .still{
     padding: 0px;
     margin: 3px;
+    
     background-color: black;
+    
+    position: relative;
+    cursor: pointer;
 }
 
-#gallery img:hover {
+.still img {
+    display: block;
+    opacity: 1;;
+}
+
+.still:hover img {
     opacity: 0.3;
+}
+
+.text-img {
+    opacity: 0;
+    position: absolute;
+    height: 50%;
+    width: 254px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.still:hover .text-img {
+    opacity: 1.0;
 }
