@@ -2,20 +2,49 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+#header {
     padding-top: 50px;
     padding-left: 60px;
     padding-bottom: 30px;
+    cursor: default;
 }
 
-header h1 {
+#header h1 {
     margin-bottom: 0px;
 }
 
-header h4 {
+#header h4 {
     padding-left: 3px;
     font-size: 10px;
     color: darkgray;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 21px;
+    padding-left: 0px;
+}
+
+ul li {
+    color: grey;
+    font-size: 12px;
+    float: left;
+    padding-right: 16px;
+    text-align: left;
+}
+
+a.focus:link, a.focus:visited {
+    color: black;
+} 
+
+li a {
+    text-decoration: none;
+    color: grey;
+}
+
+li a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 #gallery {
