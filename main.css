@@ -62,3 +62,23 @@ header h4 {
 .still:hover .text-img {
     opacity: 1.0;
 }
+
+#player {
+    margin-left: 65px;
+}
+
+.navigation-text {
+    color: grey;
+    font-size: 10px;
+    margin-left: 65px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navigation-text:onhover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
